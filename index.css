@@ -1,0 +1,110 @@
+body{
+    min-height: 100vh;
+    position: relative;
+}
+
+.Borde{
+    border: 1px black solid;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #ff6961;
+}
+
+div,
+footer{
+    border-radius: 20px;
+}
+
+.Header{
+    margin:1%;
+    text-align: center;
+    border: 1px black solid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #84b6f4;
+}
+
+.Navbar{
+    margin:1%;
+    justify-content: center;
+    border: 1px black solid;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    background-color: #77dd77;
+    display: flex;
+}
+
+
+.Menu,
+.Comida,
+.Telefonos,
+.Juegos {
+    text-align: center;
+    margin-right: 5%;
+}
+
+.Menu:hover,
+.Comida:hover,
+.Telefonos:hover,
+.Juegos:hover,
+.Atencion:hover{
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+}
+
+.Contenido{
+    border: 1px black solid;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    background-color: #84b6f4;
+    margin-bottom: 1%;
+}
+
+.Contenido * {
+    box-sizing: border-box;
+    background-color: #fdfd96;
+}
+
+.Mitad_1{
+    width: 46%;
+    margin:1%;
+    border: 1px black solid;
+    float: left;
+    text-align: justify;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.Mitad_2{
+    width: 46%;
+    margin:auto;
+    border: 1px black solid;
+    float: right;
+    text-align: justify;
+    display: block;
+    margin-top: 1%;
+    margin-right: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.Texto{
+    clear: both;
+    text-align: justify;
+    border: 1px black solid;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-bottom: 1%;
+}
+
+footer{
+    text-align: center;
+    background-color: #77dd77;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+  
